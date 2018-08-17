@@ -12,70 +12,64 @@ import android.widget.ImageView;
 import com.hongri.utils.ImageLoader;
 import com.hongri.utils.ImageLoader.Type;
 
-public class MyAdapter extends BaseAdapter
-{
+/**
+ * @author hongri
+ */
+public class MyAdapter extends BaseAdapter {
 
-	private Context mContext;
-	private List<String> mData;
-	private String mDirPath;
-	private LayoutInflater mInflater;
-	private ImageLoader mImageLoader;
+    private Context mContext;
+    private List<String> mData;
+    private String mDirPath;
+    private LayoutInflater mInflater;
+    private ImageLoader mImageLoader;
 
-	public MyAdapter(Context context, List<String> mData, String dirPath)
-	{
-		this.mContext = context;
-		this.mData = mData;
-		this.mDirPath = dirPath;
-		mInflater = LayoutInflater.from(mContext);
+    public MyAdapter(Context context, List<String> mData, String dirPath) {
+        this.mContext = context;
+        this.mData = mData;
+        this.mDirPath = dirPath;
+        mInflater = LayoutInflater.from(mContext);
 
-		mImageLoader = ImageLoader.getInstance(3 , Type.LIFO);
-	}
+        mImageLoader = ImageLoader.getInstance(3, Type.LIFO);
+    }
 
-	@Override
-	public int getCount()
-	{
-		return mData.size();
-	}
+    @Override
+    public int getCount() {
+        return mData.size();
+    }
 
-	@Override
-	public Object getItem(int position)
-	{
-		return mData.get(position);
-	}
+    @Override
+    public Object getItem(int position) {
+        return mData.get(position);
+    }
 
-	@Override
-	public long getItemId(int position)
-	{
-		return position;
-	}
+    @Override
+    public long getItemId(int position) {
+        return position;
+    }
 
-	@Override
-	public View getView(int position, View convertView, final ViewGroup parent)
-	{
-		ViewHolder holder = null;
-		if (convertView == null)
-		{
-			holder = new ViewHolder();
-			convertView = mInflater.inflate(R.layout.grid_item, parent,
-					false);
-			holder.mImageView = (ImageView) convertView
-					.findViewById(R.id.id_item_image);
-			convertView.setTag(holder);
-		} else
-		{
-			holder = (ViewHolder) convertView.getTag();
-		}
-		holder.mImageView
-				.setImageResource(R.drawable.friends_sends_pictures_no);
-		//使用Imageloader去加载图片
-		mImageLoader.loadImage(mDirPath + "/" + mData.get(position),
-				holder.mImageView);
-		return convertView;
-	}
+    @Override
+    public View getView(int position, View convertView, final ViewGroup parent) {
+        ViewHolder holder = null;
+        if (convertView == null) {
+            holder = new ViewHolder();
+            convertView = mInflater.inflate(R.layout.grid_item, parent,
+                false);
+            holder.mImageView = (ImageView)convertView
+                .findViewById(R.id.id_item_image);
+            convertView.setTag(holder);
+        } else {
+            holder = (ViewHolder)convertView.getTag();
+        }
+        holder.mImageView
+            .setImageResource(R.drawable.friends_sends_pictures_no);
+        //使用Imageloader去加载图片
+        mImageLoader.loadImage(mDirPath + "/" + mData.get(position),
+            holder.mImageView);
+        return convertView;
+    }
 
-	private final class ViewHolder
-	{
-		ImageView mImageView;
-	}
+    private final class ViewHolder {
+        ImageView mImageView;
+    }
 
 }
