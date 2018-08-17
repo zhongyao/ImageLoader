@@ -1,4 +1,4 @@
-package com.example.zhy_handler_imageloader;
+package com.hongri.view;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 
-import com.zhy.utils.ImageLoader;
-import com.zhy.utils.ImageLoader.Type;
+import com.hongri.utils.ImageLoader;
+import com.hongri.utils.ImageLoader.Type;
 
 public class MyAdapter extends BaseAdapter
 {
