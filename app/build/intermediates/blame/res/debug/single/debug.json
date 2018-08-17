@@ -28,6 +28,10 @@
         "source": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/drawable-xhdpi/ic_launcher.png"
     },
     {
+        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-xhdpi_landscape.jpeg.flat",
+        "source": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/drawable-xhdpi/landscape.jpeg"
+    },
+    {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/menu_main.xml.flat",
         "source": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/menu/main.xml"
     }

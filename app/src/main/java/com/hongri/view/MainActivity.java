@@ -15,18 +15,18 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
 import android.provider.MediaStore;
+import android.view.View;
+import android.widget.Button;
 import android.widget.GridView;
-import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.Toast;
+import com.hongri.bitmap.BitmapFactoryUtil;
 
 /**
  * @author hongri
  */
-public class MainActivity extends Activity {
+public class MainActivity extends Activity implements View.OnClickListener {
     private ProgressDialog mProgressDialog;
-    private ImageView mImageView;
-
     /**
      * 存储文件夹中的图片数量
      */
@@ -39,6 +39,8 @@ public class MainActivity extends Activity {
      * 所有的图片
      */
     private List<String> mImgs;
+
+    private Button btnBmp;
 
     private GridView mGirdView;
     private ListAdapter mAdapter;
@@ -75,7 +77,11 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        btnBmp = (Button)findViewById(R.id.btnBmp);
         mGirdView = (GridView)findViewById(R.id.id_gridView);
+
+        btnBmp.setOnClickListener(this);
         getImages();
 
     }
@@ -145,5 +151,16 @@ public class MainActivity extends Activity {
             }
         }).start();
 
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.btnBmp:
+                BitmapFactoryUtil.decodeSampledBitmapFromResource(getResources(),R.drawable.landscape,200,300);
+                break;
+            default:
+                break;
+        }
     }
 }

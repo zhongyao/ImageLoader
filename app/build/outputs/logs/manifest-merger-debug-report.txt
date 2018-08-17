@@ -4,6 +4,12 @@ ADDED from /workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/mai
 INJECTED from /workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/AndroidManifest.xml:2:1-29:12
 INJECTED from /workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/AndroidManifest.xml:2:1-29:12
 INJECTED from /workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/AndroidManifest.xml:2:1-29:12
+MERGED from [com.android.support:support-v4:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/3f90c9909ddb0868af463370f5fb4a7b/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/5c2ffd8f7000722b0bfbb1a47ac6c4a7/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/b61868c04ad4c28ddbd9c6dcda0ec2d3/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/4baf9cd4797b6d8063340d110fd8face/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/8de89c2047d0896b25c3ff2de833823b/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/b496419df605247960650692b2b554de/AndroidManifest.xml:17:1-31:12
 INJECTED from /workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/AndroidManifest.xml:2:1-29:12
 INJECTED from /workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/AndroidManifest.xml:2:1-29:12
 INJECTED from /workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/AndroidManifest.xml:2:1-29:12
@@ -29,8 +35,22 @@ uses-sdk
 ADDED from /workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/AndroidManifest.xml:9:5-11:41
 INJECTED from /workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/AndroidManifest.xml:9:5-11:41
 INJECTED from /workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/AndroidManifest.xml:9:5-11:41
+MERGED from [com.android.support:support-v4:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/3f90c9909ddb0868af463370f5fb4a7b/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/3f90c9909ddb0868af463370f5fb4a7b/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/5c2ffd8f7000722b0bfbb1a47ac6c4a7/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/5c2ffd8f7000722b0bfbb1a47ac6c4a7/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/b61868c04ad4c28ddbd9c6dcda0ec2d3/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/b61868c04ad4c28ddbd9c6dcda0ec2d3/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/4baf9cd4797b6d8063340d110fd8face/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/4baf9cd4797b6d8063340d110fd8face/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/8de89c2047d0896b25c3ff2de833823b/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/8de89c2047d0896b25c3ff2de833823b/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/b496419df605247960650692b2b554de/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/b496419df605247960650692b2b554de/AndroidManifest.xml:21:5-23:58
 INJECTED from /workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/AndroidManifest.xml:9:5-11:41
 INJECTED from /workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/AndroidManifest.xml:9:5-11:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/3f90c9909ddb0868af463370f5fb4a7b/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
 		ADDED from /workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/AndroidManifest.xml:11:9-38
 		INJECTED from /workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/AndroidManifest.xml
@@ -41,6 +61,18 @@ INJECTED from /workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/
 		INJECTED from /workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/AndroidManifest.xml
 application
 ADDED from /workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/AndroidManifest.xml:13:5-27:19
+MERGED from [com.android.support:support-v4:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/3f90c9909ddb0868af463370f5fb4a7b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/3f90c9909ddb0868af463370f5fb4a7b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/5c2ffd8f7000722b0bfbb1a47ac6c4a7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/5c2ffd8f7000722b0bfbb1a47ac6c4a7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/b61868c04ad4c28ddbd9c6dcda0ec2d3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/b61868c04ad4c28ddbd9c6dcda0ec2d3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/4baf9cd4797b6d8063340d110fd8face/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/4baf9cd4797b6d8063340d110fd8face/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/8de89c2047d0896b25c3ff2de833823b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/8de89c2047d0896b25c3ff2de833823b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/b496419df605247960650692b2b554de/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/b496419df605247960650692b2b554de/AndroidManifest.xml:25:5-29:19
 	android:label
 		ADDED from /workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/AndroidManifest.xml:16:9-41
 	android:icon
@@ -65,3 +97,19 @@ category#android.intent.category.LAUNCHER
 ADDED from /workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/AndroidManifest.xml:24:17-77
 	android:name
 		ADDED from /workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/AndroidManifest.xml:24:27-74
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/3f90c9909ddb0868af463370f5fb4a7b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/5c2ffd8f7000722b0bfbb1a47ac6c4a7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/5c2ffd8f7000722b0bfbb1a47ac6c4a7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/b61868c04ad4c28ddbd9c6dcda0ec2d3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/b61868c04ad4c28ddbd9c6dcda0ec2d3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/4baf9cd4797b6d8063340d110fd8face/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/4baf9cd4797b6d8063340d110fd8face/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/8de89c2047d0896b25c3ff2de833823b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/8de89c2047d0896b25c3ff2de833823b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/b496419df605247960650692b2b554de/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/b496419df605247960650692b2b554de/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/3f90c9909ddb0868af463370f5fb4a7b/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:25.4.0] /Users/youku/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/3f90c9909ddb0868af463370f5fb4a7b/AndroidManifest.xml:27:13-51

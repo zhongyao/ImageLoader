@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Aug 17 11:31:51 CST 2018
+#Fri Aug 17 16:07:08 CST 2018
 0.baseType=DIRECTORY
 0.base=/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/transforms/dexMerger/debug/0
 0.path=classes.dex

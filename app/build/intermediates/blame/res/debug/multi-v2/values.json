@@ -6,30 +6,25 @@
                 {
                     "source": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/values/styles.xml",
                     "from": {
-                        "startLines": "6,15",
-                        "startColumns": "4,4",
-                        "startOffsets": "186,510",
-                        "endLines": "12,17",
-                        "endColumns": "12,12",
-                        "endOffsets": "472,665"
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
                     },
                     "to": {
-                        "startLines": "7,14",
+                        "startLines": "7,10",
                         "startColumns": "4,4",
-                        "startOffsets": "336,627",
-                        "endLines": "13,16",
+                        "startOffsets": "324,407",
+                        "endLines": "9,12",
                         "endColumns": "12,12",
-                        "endOffsets": "622,782"
+                        "endOffsets": "402,474"
                     }
                 },
                 {
                     "source": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/values/dimens.xml",
                     "from": {
-                        "startLines": "3,4",
-                        "startColumns": "4,4",
-                        "startOffsets": "89,147",
-                        "endColumns": "57,55",
-                        "endOffsets": "142,198"
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
                     },
                     "to": {
                         "startLines": "2,3",
@@ -42,18 +37,18 @@
                 {
                     "source": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "4,3,5",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "117,56,170",
-                        "endColumns": "52,60,52",
-                        "endOffsets": "165,112,218"
+                        "startLines": "-1,3,-1",
+                        "startColumns": "-1,4,-1",
+                        "startOffsets": "-1,56,-1",
+                        "endColumns": "-1,48,-1",
+                        "endOffsets": "-1,100,-1"
                     },
                     "to": {
                         "startLines": "4,5,6",
                         "startColumns": "4,4,4",
-                        "startOffsets": "169,222,283",
-                        "endColumns": "52,60,52",
-                        "endOffsets": "217,278,331"
+                        "startOffsets": "169,222,271",
+                        "endColumns": "52,48,52",
+                        "endOffsets": "217,266,319"
                     }
                 }
             ]

@@ -1,12 +1,19 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnBmp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="BitmapFactory测试"/>
 
     <GridView
         android:id="@+id/id_gridView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_below="@id/btnBmp"
         android:cacheColorHint="@android:color/transparent"
         android:columnWidth="90dip"
         android:gravity="center"
@@ -14,7 +21,7 @@
         android:listSelector="@android:color/transparent"
         android:numColumns="auto_fit"
         android:stretchMode="columnWidth"
-        android:verticalSpacing="20dip" >
+        android:verticalSpacing="20dip">
     </GridView>
 
 </RelativeLayout>
