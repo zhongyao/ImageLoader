@@ -4,7 +4,7 @@
     android:layout_height="wrap_content" >
 
     <ImageView
-        android:id="@+id/id_item_image"
+        android:id="@+id/item"
         android:layout_width="fill_parent"
         android:layout_height="100dp"
         android:background="@drawable/friends_sends_pictures_no"
