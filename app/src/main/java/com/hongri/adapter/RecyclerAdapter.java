@@ -38,10 +38,8 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
     }
 
     @Override
-    public void onBindViewHolder(MyViewHolder holder, int position) {
+    public void onBindViewHolder(final MyViewHolder holder, final int position) {
         mImageLoader.bindBitmap(imageUrls.get(position), holder.mIv, IMAGE_SIZE, IMAGE_SIZE);
-
-        //holder.mIv.setImageBitmap(mImageLoader.loadBitmap(imageUrls.get(position), IMAGE_SIZE, IMAGE_SIZE));
     }
 
     @Override
