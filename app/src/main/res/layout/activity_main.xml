@@ -9,11 +9,17 @@
         android:background="@null"
         android:text="BitmapFactory测试"/>
 
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnBmp"/>
+
     <GridView
         android:id="@+id/id_gridView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/btnBmp"
+        android:layout_below="@id/iv"
         android:cacheColorHint="@android:color/transparent"
         android:columnWidth="90dip"
         android:gravity="center"

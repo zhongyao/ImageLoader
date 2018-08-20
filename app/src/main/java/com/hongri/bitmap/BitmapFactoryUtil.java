@@ -1,47 +1,72 @@
 package com.hongri.bitmap;
 
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
 import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.BitmapFactory.Options;
-import com.hongri.view.R;
+import android.os.AsyncTask;
+import com.hongri.view.MainActivity;
 
 /**
  * @author zhongyao
  * @date 2018/8/17
+ *
+ * 加载图片的四种方式：
+ * 1、从文件中加载图片
+ * 2、使用资源加载图片
+ * 3、输入流加载图片资源
+ * 4、字节数组加载图片资源
  */
 
 public class BitmapFactoryUtil {
 
-    private static final String FILE_URL = "";
-
     /**
-     * 加载一个图片的方式
+     * 从文件中加载图片
      */
-    public Bitmap loadBitmap(Context context) {
+    public static Bitmap loadBitmapDecodeFile(Context context, String imageFileUrl) {
 
-        /**
-         * 文件系统
-         */
-        BitmapFactory.decodeFile(FILE_URL);
-
-        /**
-         * 资源
-         */
-        Bitmap bitmap = BitmapFactory.decodeResource(context.getResources(), R.drawable.landscape);
-
-        /**
-         * 输入流
-         */
-        //BitmapFactory.decodeStream();
-
-        /**
-         * 字节数组
-         */
-        //BitmapFactory.decodeByteArray();
+        Bitmap bitmap = BitmapFactory.decodeFile(imageFileUrl);
 
         return bitmap;
+    }
+
+    /**
+     * 使用资源加载图片
+     *
+     * @return
+     */
+    public static Bitmap loadBitmapDecodeResources(Context context, int resId) {
+
+        Bitmap bitmap = BitmapFactory.decodeResource(context.getResources(), resId);
+
+        return bitmap;
+    }
+
+    /**
+     * 输入流加载图片资源
+     *
+     * @param context
+     * @return
+     */
+    public static void loadBitmapDecodeStream(Context context, String imageUrl) {
+        new MyTask2().execute(imageUrl);
+    }
+
+    /**
+     * 字节数组加载图片资源
+     *
+     * @param context
+     * @return
+     */
+    public static void loadBitmapDecodeByteArray(Context context, final String imageUrl) {
+        new MyTask().execute(imageUrl);
     }
 
     public static Bitmap decodeSampledBitmapFromResource(Resources res, int resId, int reqWidth, int reqHeight) {
@@ -94,5 +119,70 @@ public class BitmapFactoryUtil {
             inSampleSize = Math.max(widthRatio, heightRatio);
         }
         return inSampleSize;
+    }
+
+    private static byte[] getBytes(InputStream is) throws IOException {
+
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        byte[] b = new byte[1024];
+        int len;
+
+        while ((len = is.read(b, 0, 1024)) != -1) {
+            baos.write(b, 0, len);
+            baos.flush();
+        }
+        byte[] bytes = baos.toByteArray();
+        return bytes;
+    }
+
+    public static class MyTask extends AsyncTask<String, Void, Bitmap> {
+
+        @Override
+        protected Bitmap doInBackground(String... strings) {
+            Bitmap bitmap = null;
+            try {
+                URL url = new URL(strings[0]);
+                HttpURLConnection conn = (HttpURLConnection)url.openConnection();
+                conn.connect();
+                InputStream is = conn.getInputStream();
+                byte[] bt = getBytes(is);
+                bitmap = BitmapFactory.decodeByteArray(bt, 0, bt.length);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            return bitmap;
+        }
+
+        @Override
+        protected void onPostExecute(Bitmap bitmap) {
+            super.onPostExecute(bitmap);
+
+            MainActivity.iv.setImageBitmap(bitmap);
+        }
+    }
+
+    public static class MyTask2 extends AsyncTask<String, Void, Bitmap> {
+
+        @Override
+        protected Bitmap doInBackground(String... strings) {
+            Bitmap bitmap = null;
+            try {
+                URL url = new URL(strings[0]);
+                HttpURLConnection conn = (HttpURLConnection)url.openConnection();
+                conn.connect();
+                InputStream is = conn.getInputStream();
+                bitmap = BitmapFactory.decodeStream(is);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            return bitmap;
+        }
+
+        @Override
+        protected void onPostExecute(Bitmap bitmap) {
+            super.onPostExecute(bitmap);
+
+            MainActivity.iv.setImageBitmap(bitmap);
+        }
     }
 }

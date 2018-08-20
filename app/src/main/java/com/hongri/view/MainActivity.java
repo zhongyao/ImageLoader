@@ -18,9 +18,11 @@ import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
 import android.widget.GridView;
+import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.Toast;
 import com.hongri.bitmap.BitmapFactoryUtil;
+import com.hongri.utils.ImageUtil;
 
 /**
  * @author hongri
@@ -41,6 +43,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private List<String> mImgs;
 
     private Button btnBmp;
+    public static ImageView iv;
 
     private GridView mGirdView;
     private ListAdapter mAdapter;
@@ -79,10 +82,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
         setContentView(R.layout.activity_main);
 
         btnBmp = (Button)findViewById(R.id.btnBmp);
+        iv = (ImageView)findViewById(R.id.iv);
         mGirdView = (GridView)findViewById(R.id.id_gridView);
 
         btnBmp.setOnClickListener(this);
-        getImages();
+        //getImages();
 
     }
 
@@ -157,7 +161,31 @@ public class MainActivity extends Activity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btnBmp:
-                BitmapFactoryUtil.decodeSampledBitmapFromResource(getResources(),R.drawable.landscape,200,300);
+
+                /**
+                 * 文件中（SD卡）加载图片
+                 */
+                //sdcard中需要有一张landscape2.jpeg的图片
+                //String IMAGE_FILE_URL = "sdcard/landscape2.jpeg";
+                //Bitmap bitmap = BitmapFactoryUtil.loadBitmapDecodeFile(this, IMAGE_FILE_URL);
+                //iv.setImageBitmap(bitmap);
+
+                /**
+                 * 资源文件加载图片
+                 */
+                //Bitmap bitmap = BitmapFactoryUtil.loadBitmapDecodeResources(this, R.drawable.landscape);
+                //iv.setImageBitmap(bitmap);
+
+                /**
+                 * 字节数组加载图片
+                 */
+                //BitmapFactoryUtil.loadBitmapDecodeByteArray(this, ImageUtil.IMAGE_URL);
+
+                /**
+                 * 字节流加载图片
+                 */
+                BitmapFactoryUtil.loadBitmapDecodeStream(this, ImageUtil.IMAGE_URL);
+
                 break;
             default:
                 break;
