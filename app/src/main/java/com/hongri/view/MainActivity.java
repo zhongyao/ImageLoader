@@ -32,9 +32,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnBmp = (Button)findViewById(R.id.btnBmp);
-        iv = (ImageView)findViewById(R.id.iv);
-        rv = (RecyclerView)findViewById(R.id.rv);
+        btnBmp = findViewById(R.id.btnBmp);
+        iv = findViewById(R.id.iv);
+        rv = findViewById(R.id.rv);
 
         mImageUrls = ImageUtil.getImageUrls();
         mImageLoader = ImageLoader.build(this);

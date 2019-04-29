@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import com.hongri.loader.ImageLoader;
+import com.hongri.utils.ImageLoaderUtil;
 import com.hongri.view.R;
 
 /**
@@ -39,7 +40,8 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
 
     @Override
     public void onBindViewHolder(final MyViewHolder holder, final int position) {
-        mImageLoader.bindBitmap(imageUrls.get(position), holder.mIv, IMAGE_SIZE, IMAGE_SIZE);
+        //mImageLoader.bindBitmap(imageUrls.get(position), holder.mIv, IMAGE_SIZE, IMAGE_SIZE);
+        ImageLoaderUtil.glideImageLoad(mContext, imageUrls.get(position), holder.mIv);
     }
 
     @Override
