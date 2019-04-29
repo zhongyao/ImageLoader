@@ -1,4 +1,4 @@
-#Mon Aug 20 17:12:00 CST 2018
+#Sun Apr 28 21:24:46 CST 2019
 base.0=/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
