@@ -4,6 +4,7 @@ import android.content.Context;
 import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.hongri.view.R;
+import com.squareup.picasso.Picasso;
 
 /**
  * Created by zhongyao on 2019-04-29.
@@ -15,10 +16,29 @@ public class ImageLoaderUtil {
      * Glide:
      * https://github.com/bumptech/glide
      */
-    public static void glideImageLoad(Context context, String imageUrl, ImageView imageView) {
+    public static void glideMode(Context context, String imageUrl, ImageView imageView) {
         Glide.with(context).load(imageUrl).centerCrop().placeholder(R.drawable.friends_sends_pictures_no).into(
             imageView);
     }
 
+    /**
+     * Fresco:
+     * https://github.com/facebook/fresco
+     *
+     * @param context
+     */
+    public static void frescoMode(Context context) {
+        //Uri uri = Uri.parse("https://raw.githubusercontent.com/facebook/fresco/master/docs/static/logo.png");
+        //SimpleDraweeView draweeView = (SimpleDraweeView) findViewById(R.id.my_image_view);
+        //draweeView.setImageURI(uri);
+    }
+
+    /**
+     * Picasso：
+     * https://github.com/square/picasso
+     */
+    public static void picassoMode(Context context, String imageUrl, ImageView imageView) {
+        Picasso.get().load(imageUrl).resize(200,200).centerCrop().into(imageView);
+    }
 
 }

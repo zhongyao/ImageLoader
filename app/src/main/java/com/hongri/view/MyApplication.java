@@ -1,6 +1,7 @@
 package com.hongri.view;
 
 import android.app.Application;
+import com.facebook.drawee.backends.pipeline.Fresco;
 
 /**
  * @author zhongyao
@@ -8,6 +9,13 @@ import android.app.Application;
  */
 
 public class MyApplication extends Application {
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        //Fresco初始化
+        Fresco.initialize(this);
+    }
+
     //TODO
     /*@Override
     public void onCreate() {

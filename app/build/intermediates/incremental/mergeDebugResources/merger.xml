@@ -85,7 +85,225 @@
             <flag name="all" value="0x77"/>
         </attr></declare-styleable><style name="Widget.Support.CoordinatorLayout" parent="android:Widget">
         <item name="statusBarBackground">#000000</item>
-    </style></file></source></dataSet><dataSet config="com.github.bumptech.glide:glide:4.9.0$Generated" generated="true"><source path="/Users/youku/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/ff330e2d05f33ac3244acfb6fc7211af/res"/></dataSet><dataSet config="com.github.bumptech.glide:glide:4.9.0" from-dependency="true" generated-set="com.github.bumptech.glide:glide:4.9.0$Generated"><source path="/Users/youku/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/ff330e2d05f33ac3244acfb6fc7211af/res"><file path="/Users/youku/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/ff330e2d05f33ac3244acfb6fc7211af/res/values/values.xml" qualifiers=""><item name="glide_custom_view_target_tag" type="id"/></file></source></dataSet><dataSet config="com.android.support.constraint:constraint-layout:1.1.3$Generated" generated="true"><source path="/Users/youku/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/94dcdb93c9bcf87e98f78d2dd8a75b4e/res"/></dataSet><dataSet config="com.android.support.constraint:constraint-layout:1.1.3" from-dependency="true" generated-set="com.android.support.constraint:constraint-layout:1.1.3$Generated"><source path="/Users/youku/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/94dcdb93c9bcf87e98f78d2dd8a75b4e/res"><file path="/Users/youku/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/94dcdb93c9bcf87e98f78d2dd8a75b4e/res/values/values.xml" qualifiers=""><attr format="boolean" name="barrierAllowsGoneWidgets"/><attr format="enum" name="barrierDirection">
+    </style></file></source></dataSet><dataSet config="com.facebook.fresco:drawee:1.13.0$Generated" generated="true"><source path="/Users/youku/.gradle/caches/transforms-1/files-1.1/drawee-1.13.0.aar/2971c975bea46460aef157d70ee62b4f/res"/></dataSet><dataSet config="com.facebook.fresco:drawee:1.13.0" from-dependency="true" generated-set="com.facebook.fresco:drawee:1.13.0$Generated"><source path="/Users/youku/.gradle/caches/transforms-1/files-1.1/drawee-1.13.0.aar/2971c975bea46460aef157d70ee62b4f/res"><file path="/Users/youku/.gradle/caches/transforms-1/files-1.1/drawee-1.13.0.aar/2971c975bea46460aef157d70ee62b4f/res/values/values.xml" qualifiers=""><declare-styleable name="GenericDraweeHierarchy">
+
+    
+    <eat-comment/>
+
+    
+    <attr format="integer" name="fadeDuration"/>
+
+    
+    <attr format="float" name="viewAspectRatio"/>
+
+    
+
+    
+    <attr format="reference" name="placeholderImage"/>
+    
+    <attr name="placeholderImageScaleType">
+      <enum name="none" value="-1"/>
+      <enum name="fitXY" value="0"/>
+      <enum name="fitStart" value="1"/>
+      <enum name="fitCenter" value="2"/>
+      <enum name="fitEnd" value="3"/>
+      <enum name="center" value="4"/>
+      <enum name="centerInside" value="5"/>
+      <enum name="centerCrop" value="6"/>
+      <enum name="focusCrop" value="7"/>
+      <enum name="fitBottomStart" value="8"/>
+    </attr>
+
+    
+    <attr format="reference" name="retryImage"/>
+    
+    <attr name="retryImageScaleType">
+      <enum name="none" value="-1"/>
+      <enum name="fitXY" value="0"/>
+      <enum name="fitStart" value="1"/>
+      <enum name="fitCenter" value="2"/>
+      <enum name="fitEnd" value="3"/>
+      <enum name="center" value="4"/>
+      <enum name="centerInside" value="5"/>
+      <enum name="centerCrop" value="6"/>
+      <enum name="focusCrop" value="7"/>
+      <enum name="fitBottomStart" value="8"/>
+    </attr>
+
+    
+    <attr format="reference" name="failureImage"/>
+    
+    <attr name="failureImageScaleType">
+      <enum name="none" value="-1"/>
+      <enum name="fitXY" value="0"/>
+      <enum name="fitStart" value="1"/>
+      <enum name="fitCenter" value="2"/>
+      <enum name="fitEnd" value="3"/>
+      <enum name="center" value="4"/>
+      <enum name="centerInside" value="5"/>
+      <enum name="centerCrop" value="6"/>
+      <enum name="focusCrop" value="7"/>
+      <enum name="fitBottomStart" value="8"/>
+    </attr>
+
+    
+    <attr format="reference" name="progressBarImage"/>
+    
+    <attr name="progressBarImageScaleType">
+      <enum name="none" value="-1"/>
+      <enum name="fitXY" value="0"/>
+      <enum name="fitStart" value="1"/>
+      <enum name="fitCenter" value="2"/>
+      <enum name="fitEnd" value="3"/>
+      <enum name="center" value="4"/>
+      <enum name="centerInside" value="5"/>
+      <enum name="centerCrop" value="6"/>
+      <enum name="focusCrop" value="7"/>
+      <enum name="fitBottomStart" value="8"/>
+    </attr>
+    
+    <attr format="integer" name="progressBarAutoRotateInterval"/>
+
+    
+    <attr name="actualImageScaleType">
+      <enum name="none" value="-1"/>
+      <enum name="fitXY" value="0"/>
+      <enum name="fitStart" value="1"/>
+      <enum name="fitCenter" value="2"/>
+      <enum name="fitEnd" value="3"/>
+      <enum name="center" value="4"/>
+      <enum name="centerInside" value="5"/>
+      <enum name="centerCrop" value="6"/>
+      <enum name="focusCrop" value="7"/>
+      <enum name="fitBottomStart" value="8"/>
+    </attr>
+
+    
+    <attr format="reference" name="backgroundImage"/>
+
+    
+    <attr format="reference" name="overlayImage"/>
+
+    
+    <attr format="reference" name="pressedStateOverlayImage"/>
+
+    
+
+    
+    <attr format="boolean" name="roundAsCircle"/>
+    
+    <attr format="dimension" name="roundedCornerRadius"/>
+    
+    <attr format="boolean" name="roundTopLeft"/>
+    
+    <attr format="boolean" name="roundTopRight"/>
+    
+    <attr format="boolean" name="roundBottomRight"/>
+    
+    <attr format="boolean" name="roundBottomLeft"/>
+    
+    <attr format="boolean" name="roundTopStart"/>
+    
+    <attr format="boolean" name="roundTopEnd"/>
+    
+    <attr format="boolean" name="roundBottomStart"/>
+    
+    <attr format="boolean" name="roundBottomEnd"/>
+    
+    <attr format="color" name="roundWithOverlayColor"/>
+    
+    <attr format="dimension" name="roundingBorderWidth"/>
+    
+    <attr format="color" name="roundingBorderColor"/>
+    
+    <attr format="dimension" name="roundingBorderPadding"/>
+
+  </declare-styleable><declare-styleable name="SimpleDraweeView" parent="GenericDraweeHierarchy">
+
+    
+    <attr format="string" name="actualImageUri"/>
+    
+    <attr format="reference" name="actualImageResource"/>
+
+    
+    <eat-comment/>
+
+    
+    <attr name="fadeDuration"/>
+
+    
+    <attr name="viewAspectRatio"/>
+
+    
+
+    
+    <attr name="placeholderImage"/>
+    
+    <attr name="placeholderImageScaleType"/>
+
+    
+    <attr name="retryImage"/>
+    
+    <attr name="retryImageScaleType"/>
+
+    
+    <attr name="failureImage"/>
+    
+    <attr name="failureImageScaleType"/>
+
+
+    
+    <attr name="progressBarImage"/>
+    
+    <attr name="progressBarImageScaleType"/>
+
+    
+    <attr name="progressBarAutoRotateInterval"/>
+
+    
+    <attr name="actualImageScaleType"/>
+
+    
+    <attr name="backgroundImage"/>
+
+    
+    <attr name="overlayImage"/>
+
+    
+    <attr name="pressedStateOverlayImage"/>
+
+    
+
+    
+    <attr name="roundAsCircle"/>
+    
+    <attr name="roundedCornerRadius"/>
+    
+    <attr name="roundTopLeft"/>
+    
+    <attr name="roundTopRight"/>
+    
+    <attr name="roundBottomRight"/>
+    
+    <attr name="roundBottomLeft"/>
+    
+    <attr name="roundTopStart"/>
+    
+    <attr name="roundTopEnd"/>
+    
+    <attr name="roundBottomStart"/>
+    
+    <attr name="roundBottomEnd"/>
+    
+    <attr name="roundWithOverlayColor"/>
+    
+    <attr name="roundingBorderWidth"/>
+    
+    <attr name="roundingBorderColor"/>
+    
+    <attr name="roundingBorderPadding"/>
+
+  </declare-styleable></file></source></dataSet><dataSet config="com.github.bumptech.glide:glide:4.9.0$Generated" generated="true"><source path="/Users/youku/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/ff330e2d05f33ac3244acfb6fc7211af/res"/></dataSet><dataSet config="com.github.bumptech.glide:glide:4.9.0" from-dependency="true" generated-set="com.github.bumptech.glide:glide:4.9.0$Generated"><source path="/Users/youku/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/ff330e2d05f33ac3244acfb6fc7211af/res"><file path="/Users/youku/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/ff330e2d05f33ac3244acfb6fc7211af/res/values/values.xml" qualifiers=""><item name="glide_custom_view_target_tag" type="id"/></file></source></dataSet><dataSet config="com.android.support.constraint:constraint-layout:1.1.3$Generated" generated="true"><source path="/Users/youku/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/94dcdb93c9bcf87e98f78d2dd8a75b4e/res"/></dataSet><dataSet config="com.android.support.constraint:constraint-layout:1.1.3" from-dependency="true" generated-set="com.android.support.constraint:constraint-layout:1.1.3$Generated"><source path="/Users/youku/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/94dcdb93c9bcf87e98f78d2dd8a75b4e/res"><file path="/Users/youku/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/94dcdb93c9bcf87e98f78d2dd8a75b4e/res/values/values.xml" qualifiers=""><attr format="boolean" name="barrierAllowsGoneWidgets"/><attr format="enum" name="barrierDirection">
         <enum name="left" value="0"/>
         <enum name="right" value="1"/>
         <enum name="top" value="2"/>
@@ -1689,7 +1907,7 @@
         
     </style></file><file path="/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">ImageLoader</string><string name="action_settings">Settings</string><string name="hello_world">Hello world!</string></file><file name="ic_launcher" path="/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/drawable-xhdpi/ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="landscape" path="/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/drawable-xhdpi/landscape.jpeg" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/drawable-xxhdpi/ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file path="/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/values-v14/styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
         
-    </style></file><file name="ic_launcher" path="/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/drawable-hdpi/ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="friends_sends_pictures_no" path="/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/drawable-hdpi/friends_sends_pictures_no.png" qualifiers="hdpi-v4" type="drawable"/><file name="main" path="/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/menu/main.xml" qualifiers="" type="menu"/><file name="ic_launcher" path="/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/drawable-mdpi/ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/></source><source path="/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/generated/res/rs/debug"/><source path="/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/debug/res"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/debug/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="AlertDialog"><attr name="android:layout"/><attr format="reference" name="buttonPanelSideLayout"/><attr format="reference" name="listLayout"/><attr format="reference" name="multiChoiceItemLayout"/><attr format="reference" name="singleChoiceItemLayout"/><attr format="reference" name="listItemLayout"/><attr format="boolean" name="showTitle"/><attr format="dimension" name="buttonIconDimen"/></declare-styleable><declare-styleable name="AppCompatSeekBar"><attr name="android:thumb"/><attr format="reference" name="tickMark"/><attr format="color" name="tickMarkTint"/><attr name="tickMarkTintMode">
+    </style></file><file name="ic_launcher" path="/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/drawable-hdpi/ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="friends_sends_pictures_no" path="/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/drawable-hdpi/friends_sends_pictures_no.png" qualifiers="hdpi-v4" type="drawable"/><file name="main" path="/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/menu/main.xml" qualifiers="" type="menu"/><file name="ic_launcher" path="/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/drawable-mdpi/ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/></source><source path="/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/generated/res/rs/debug"/><source path="/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/debug/res"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/debug/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="AlertDialog"><attr name="android:layout"/><attr format="reference" name="buttonPanelSideLayout"/><attr format="reference" name="listLayout"/><attr format="reference" name="multiChoiceItemLayout"/><attr format="reference" name="singleChoiceItemLayout"/><attr format="reference" name="listItemLayout"/><attr format="boolean" name="showTitle"/><attr format="dimension" name="buttonIconDimen"/></declare-styleable><declare-styleable name="SimpleDraweeView"><attr format="string" name="actualImageUri"/><attr format="reference" name="actualImageResource"/><attr name="fadeDuration"/><attr name="viewAspectRatio"/><attr name="placeholderImage"/><attr name="placeholderImageScaleType"/><attr name="retryImage"/><attr name="retryImageScaleType"/><attr name="failureImage"/><attr name="failureImageScaleType"/><attr name="progressBarImage"/><attr name="progressBarImageScaleType"/><attr name="progressBarAutoRotateInterval"/><attr name="actualImageScaleType"/><attr name="backgroundImage"/><attr name="overlayImage"/><attr name="pressedStateOverlayImage"/><attr name="roundAsCircle"/><attr name="roundedCornerRadius"/><attr name="roundTopLeft"/><attr name="roundTopRight"/><attr name="roundBottomRight"/><attr name="roundBottomLeft"/><attr name="roundTopStart"/><attr name="roundTopEnd"/><attr name="roundBottomStart"/><attr name="roundBottomEnd"/><attr name="roundWithOverlayColor"/><attr name="roundingBorderWidth"/><attr name="roundingBorderColor"/><attr name="roundingBorderPadding"/></declare-styleable><declare-styleable name="AppCompatSeekBar"><attr name="android:thumb"/><attr format="reference" name="tickMark"/><attr format="color" name="tickMarkTint"/><attr name="tickMarkTintMode">
             
             <enum name="src_over" value="3"/>
             
@@ -1763,7 +1981,62 @@
             <flag name="end" value="0x00800005"/>
             
             <flag name="all" value="0x77"/>
-        </attr></declare-styleable><declare-styleable name="ColorStateListItem"><attr name="android:color"/><attr format="float" name="alpha"/><attr name="android:alpha"/></declare-styleable><declare-styleable name="Spinner"><attr name="android:prompt"/><attr name="popupTheme"/><attr name="android:popupBackground"/><attr name="android:dropDownWidth"/><attr name="android:entries"/></declare-styleable><declare-styleable name="PopupWindow"><attr format="boolean" name="overlapAnchor"/><attr name="android:popupBackground"/><attr name="android:popupAnimationStyle"/></declare-styleable><declare-styleable name="ConstraintLayout_placeholder"><attr name="emptyVisibility"/><attr name="content"/></declare-styleable><declare-styleable name="DrawerArrowToggle"><attr format="color" name="color"/><attr format="boolean" name="spinBars"/><attr format="dimension" name="drawableSize"/><attr format="dimension" name="gapBetweenBars"/><attr format="dimension" name="arrowHeadLength"/><attr format="dimension" name="arrowShaftLength"/><attr format="dimension" name="barLength"/><attr format="dimension" name="thickness"/></declare-styleable><declare-styleable name="ActionBarLayout"><attr name="android:layout_gravity"/></declare-styleable><declare-styleable name="ActivityChooserView"><attr format="string" name="initialActivityCount"/><attr format="reference" name="expandActivityOverflowButtonDrawable"/></declare-styleable><declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable><declare-styleable name="AppCompatTheme"><attr format="boolean" name="windowActionBar"/><attr format="boolean" name="windowNoTitle"/><attr format="boolean" name="windowActionBarOverlay"/><attr format="boolean" name="windowActionModeOverlay"/><attr format="dimension|fraction" name="windowFixedWidthMajor"/><attr format="dimension|fraction" name="windowFixedHeightMinor"/><attr format="dimension|fraction" name="windowFixedWidthMinor"/><attr format="dimension|fraction" name="windowFixedHeightMajor"/><attr format="dimension|fraction" name="windowMinWidthMajor"/><attr format="dimension|fraction" name="windowMinWidthMinor"/><attr name="android:windowIsFloating"/><attr name="android:windowAnimationStyle"/><attr format="reference" name="actionBarTabStyle"/><attr format="reference" name="actionBarTabBarStyle"/><attr format="reference" name="actionBarTabTextStyle"/><attr format="reference" name="actionOverflowButtonStyle"/><attr format="reference" name="actionOverflowMenuStyle"/><attr format="reference" name="actionBarPopupTheme"/><attr format="reference" name="actionBarStyle"/><attr format="reference" name="actionBarSplitStyle"/><attr format="reference" name="actionBarTheme"/><attr format="reference" name="actionBarWidgetTheme"/><attr format="dimension" name="actionBarSize">
+        </attr></declare-styleable><declare-styleable name="ColorStateListItem"><attr name="android:color"/><attr format="float" name="alpha"/><attr name="android:alpha"/></declare-styleable><declare-styleable name="GenericDraweeHierarchy"><attr format="integer" name="fadeDuration"/><attr format="float" name="viewAspectRatio"/><attr format="reference" name="placeholderImage"/><attr name="placeholderImageScaleType">
+      <enum name="none" value="-1"/>
+      <enum name="fitXY" value="0"/>
+      <enum name="fitStart" value="1"/>
+      <enum name="fitCenter" value="2"/>
+      <enum name="fitEnd" value="3"/>
+      <enum name="center" value="4"/>
+      <enum name="centerInside" value="5"/>
+      <enum name="centerCrop" value="6"/>
+      <enum name="focusCrop" value="7"/>
+      <enum name="fitBottomStart" value="8"/>
+    </attr><attr format="reference" name="retryImage"/><attr name="retryImageScaleType">
+      <enum name="none" value="-1"/>
+      <enum name="fitXY" value="0"/>
+      <enum name="fitStart" value="1"/>
+      <enum name="fitCenter" value="2"/>
+      <enum name="fitEnd" value="3"/>
+      <enum name="center" value="4"/>
+      <enum name="centerInside" value="5"/>
+      <enum name="centerCrop" value="6"/>
+      <enum name="focusCrop" value="7"/>
+      <enum name="fitBottomStart" value="8"/>
+    </attr><attr format="reference" name="failureImage"/><attr name="failureImageScaleType">
+      <enum name="none" value="-1"/>
+      <enum name="fitXY" value="0"/>
+      <enum name="fitStart" value="1"/>
+      <enum name="fitCenter" value="2"/>
+      <enum name="fitEnd" value="3"/>
+      <enum name="center" value="4"/>
+      <enum name="centerInside" value="5"/>
+      <enum name="centerCrop" value="6"/>
+      <enum name="focusCrop" value="7"/>
+      <enum name="fitBottomStart" value="8"/>
+    </attr><attr format="reference" name="progressBarImage"/><attr name="progressBarImageScaleType">
+      <enum name="none" value="-1"/>
+      <enum name="fitXY" value="0"/>
+      <enum name="fitStart" value="1"/>
+      <enum name="fitCenter" value="2"/>
+      <enum name="fitEnd" value="3"/>
+      <enum name="center" value="4"/>
+      <enum name="centerInside" value="5"/>
+      <enum name="centerCrop" value="6"/>
+      <enum name="focusCrop" value="7"/>
+      <enum name="fitBottomStart" value="8"/>
+    </attr><attr format="integer" name="progressBarAutoRotateInterval"/><attr name="actualImageScaleType">
+      <enum name="none" value="-1"/>
+      <enum name="fitXY" value="0"/>
+      <enum name="fitStart" value="1"/>
+      <enum name="fitCenter" value="2"/>
+      <enum name="fitEnd" value="3"/>
+      <enum name="center" value="4"/>
+      <enum name="centerInside" value="5"/>
+      <enum name="centerCrop" value="6"/>
+      <enum name="focusCrop" value="7"/>
+      <enum name="fitBottomStart" value="8"/>
+    </attr><attr format="reference" name="backgroundImage"/><attr format="reference" name="overlayImage"/><attr format="reference" name="pressedStateOverlayImage"/><attr format="boolean" name="roundAsCircle"/><attr format="dimension" name="roundedCornerRadius"/><attr format="boolean" name="roundTopLeft"/><attr format="boolean" name="roundTopRight"/><attr format="boolean" name="roundBottomRight"/><attr format="boolean" name="roundBottomLeft"/><attr format="boolean" name="roundTopStart"/><attr format="boolean" name="roundTopEnd"/><attr format="boolean" name="roundBottomStart"/><attr format="boolean" name="roundBottomEnd"/><attr format="color" name="roundWithOverlayColor"/><attr format="dimension" name="roundingBorderWidth"/><attr format="color" name="roundingBorderColor"/><attr format="dimension" name="roundingBorderPadding"/></declare-styleable><declare-styleable name="Spinner"><attr name="android:prompt"/><attr name="popupTheme"/><attr name="android:popupBackground"/><attr name="android:dropDownWidth"/><attr name="android:entries"/></declare-styleable><declare-styleable name="PopupWindow"><attr format="boolean" name="overlapAnchor"/><attr name="android:popupBackground"/><attr name="android:popupAnimationStyle"/></declare-styleable><declare-styleable name="ConstraintLayout_placeholder"><attr name="emptyVisibility"/><attr name="content"/></declare-styleable><declare-styleable name="DrawerArrowToggle"><attr format="color" name="color"/><attr format="boolean" name="spinBars"/><attr format="dimension" name="drawableSize"/><attr format="dimension" name="gapBetweenBars"/><attr format="dimension" name="arrowHeadLength"/><attr format="dimension" name="arrowShaftLength"/><attr format="dimension" name="barLength"/><attr format="dimension" name="thickness"/></declare-styleable><declare-styleable name="ActionBarLayout"><attr name="android:layout_gravity"/></declare-styleable><declare-styleable name="ActivityChooserView"><attr format="string" name="initialActivityCount"/><attr format="reference" name="expandActivityOverflowButtonDrawable"/></declare-styleable><declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable><declare-styleable name="AppCompatTheme"><attr format="boolean" name="windowActionBar"/><attr format="boolean" name="windowNoTitle"/><attr format="boolean" name="windowActionBarOverlay"/><attr format="boolean" name="windowActionModeOverlay"/><attr format="dimension|fraction" name="windowFixedWidthMajor"/><attr format="dimension|fraction" name="windowFixedHeightMinor"/><attr format="dimension|fraction" name="windowFixedWidthMinor"/><attr format="dimension|fraction" name="windowFixedHeightMajor"/><attr format="dimension|fraction" name="windowMinWidthMajor"/><attr format="dimension|fraction" name="windowMinWidthMinor"/><attr name="android:windowIsFloating"/><attr name="android:windowAnimationStyle"/><attr format="reference" name="actionBarTabStyle"/><attr format="reference" name="actionBarTabBarStyle"/><attr format="reference" name="actionBarTabTextStyle"/><attr format="reference" name="actionOverflowButtonStyle"/><attr format="reference" name="actionOverflowMenuStyle"/><attr format="reference" name="actionBarPopupTheme"/><attr format="reference" name="actionBarStyle"/><attr format="reference" name="actionBarSplitStyle"/><attr format="reference" name="actionBarTheme"/><attr format="reference" name="actionBarWidgetTheme"/><attr format="dimension" name="actionBarSize">
             <enum name="wrap_content" value="0"/>
         </attr><attr format="reference" name="actionBarDivider"/><attr format="reference" name="actionBarItemBackground"/><attr format="reference" name="actionMenuTextAppearance"/><attr format="color|reference" name="actionMenuTextColor"/><attr format="reference" name="actionModeStyle"/><attr format="reference" name="actionModeCloseButtonStyle"/><attr format="reference" name="actionModeBackground"/><attr format="reference" name="actionModeSplitBackground"/><attr format="reference" name="actionModeCloseDrawable"/><attr format="reference" name="actionModeCutDrawable"/><attr format="reference" name="actionModeCopyDrawable"/><attr format="reference" name="actionModePasteDrawable"/><attr format="reference" name="actionModeSelectAllDrawable"/><attr format="reference" name="actionModeShareDrawable"/><attr format="reference" name="actionModeFindDrawable"/><attr format="reference" name="actionModeWebSearchDrawable"/><attr format="reference" name="actionModePopupWindowStyle"/><attr format="reference" name="textAppearanceLargePopupMenu"/><attr format="reference" name="textAppearanceSmallPopupMenu"/><attr format="reference" name="textAppearancePopupMenuHeader"/><attr format="reference" name="dialogTheme"/><attr format="dimension" name="dialogPreferredPadding"/><attr format="reference" name="listDividerAlertDialog"/><attr format="reference" name="actionDropDownStyle"/><attr format="dimension" name="dropdownListPreferredItemHeight"/><attr format="reference" name="spinnerDropDownItemStyle"/><attr format="reference" name="homeAsUpIndicator"/><attr format="reference" name="actionButtonStyle"/><attr format="reference" name="buttonBarStyle"/><attr format="reference" name="buttonBarButtonStyle"/><attr format="reference" name="selectableItemBackground"/><attr format="reference" name="selectableItemBackgroundBorderless"/><attr format="reference" name="borderlessButtonStyle"/><attr format="reference" name="dividerVertical"/><attr format="reference" name="dividerHorizontal"/><attr format="reference" name="activityChooserViewStyle"/><attr format="reference" name="toolbarStyle"/><attr format="reference" name="toolbarNavigationButtonStyle"/><attr format="reference" name="popupMenuStyle"/><attr format="reference" name="popupWindowStyle"/><attr format="reference|color" name="editTextColor"/><attr format="reference" name="editTextBackground"/><attr format="reference" name="imageButtonStyle"/><attr format="reference" name="textAppearanceSearchResultTitle"/><attr format="reference" name="textAppearanceSearchResultSubtitle"/><attr format="reference|color" name="textColorSearchUrl"/><attr format="reference" name="searchViewStyle"/><attr format="dimension" name="listPreferredItemHeight"/><attr format="dimension" name="listPreferredItemHeightSmall"/><attr format="dimension" name="listPreferredItemHeightLarge"/><attr format="dimension" name="listPreferredItemPaddingLeft"/><attr format="dimension" name="listPreferredItemPaddingRight"/><attr format="reference" name="dropDownListViewStyle"/><attr format="reference" name="listPopupWindowStyle"/><attr format="reference" name="textAppearanceListItem"/><attr format="reference" name="textAppearanceListItemSecondary"/><attr format="reference" name="textAppearanceListItemSmall"/><attr format="reference" name="panelBackground"/><attr format="dimension" name="panelMenuListWidth"/><attr format="reference" name="panelMenuListTheme"/><attr format="reference" name="listChoiceBackgroundIndicator"/><attr format="color" name="colorPrimary"/><attr format="color" name="colorPrimaryDark"/><attr format="color" name="colorAccent"/><attr format="color" name="colorControlNormal"/><attr format="color" name="colorControlActivated"/><attr format="color" name="colorControlHighlight"/><attr format="color" name="colorButtonNormal"/><attr format="color" name="colorSwitchThumbNormal"/><attr format="reference" name="controlBackground"/><attr format="color" name="colorBackgroundFloating"/><attr format="reference" name="alertDialogStyle"/><attr format="reference" name="alertDialogButtonGroupStyle"/><attr format="boolean" name="alertDialogCenterButtons"/><attr format="reference" name="alertDialogTheme"/><attr format="reference|color" name="textColorAlertDialogListItem"/><attr format="reference" name="buttonBarPositiveButtonStyle"/><attr format="reference" name="buttonBarNegativeButtonStyle"/><attr format="reference" name="buttonBarNeutralButtonStyle"/><attr format="reference" name="autoCompleteTextViewStyle"/><attr format="reference" name="buttonStyle"/><attr format="reference" name="buttonStyleSmall"/><attr format="reference" name="checkboxStyle"/><attr format="reference" name="checkedTextViewStyle"/><attr format="reference" name="editTextStyle"/><attr format="reference" name="radioButtonStyle"/><attr format="reference" name="ratingBarStyle"/><attr format="reference" name="ratingBarStyleIndicator"/><attr format="reference" name="ratingBarStyleSmall"/><attr format="reference" name="seekBarStyle"/><attr format="reference" name="spinnerStyle"/><attr format="reference" name="switchStyle"/><attr format="reference" name="listMenuViewStyle"/><attr format="reference" name="tooltipFrameBackground"/><attr format="reference|color" name="tooltipForegroundColor"/><attr format="reference|color" name="colorError"/><attr format="string" name="viewInflaterClass"/></declare-styleable><declare-styleable name="ListPopupWindow"><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/></declare-styleable><declare-styleable name="TextAppearance"><attr name="android:textSize"/><attr name="android:textColor"/><attr name="android:textColorHint"/><attr name="android:textColorLink"/><attr name="android:textStyle"/><attr name="android:typeface"/><attr name="android:fontFamily"/><attr name="fontFamily"/><attr name="textAllCaps"/><attr name="android:shadowColor"/><attr name="android:shadowDy"/><attr name="android:shadowDx"/><attr name="android:shadowRadius"/></declare-styleable><declare-styleable name="MenuView"><attr name="android:itemTextAppearance"/><attr name="android:horizontalDivider"/><attr name="android:verticalDivider"/><attr name="android:headerBackground"/><attr name="android:itemBackground"/><attr name="android:windowAnimationStyle"/><attr name="android:itemIconDisabledAlpha"/><attr format="boolean" name="preserveIconSpacing"/><attr format="reference" name="subMenuArrow"/></declare-styleable><declare-styleable name="ActionBar"><attr name="navigationMode">
             
