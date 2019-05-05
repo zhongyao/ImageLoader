@@ -4,7 +4,6 @@ import android.content.Context;
 import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.hongri.view.R;
-import com.squareup.picasso.Picasso;
 
 /**
  * Created by zhongyao on 2019-04-29.
@@ -38,7 +37,16 @@ public class ImageLoaderUtil {
      * https://github.com/square/picasso
      */
     public static void picassoMode(Context context, String imageUrl, ImageView imageView) {
-        Picasso.get().load(imageUrl).resize(200,200).centerCrop().into(imageView);
+        //Picasso.get().load(imageUrl).resize(200,200).centerCrop().into(imageView);
+    }
+
+    /**
+     * Android-Universal-Image-Loader:
+     * https://github.com/nostra13/Android-Universal-Image-Loader
+     */
+    public static void imageLoaderMode(Context context, String imageUrl, ImageView imageView){
+        //ImageLoader imageLoader = ImageLoader.getInstance();
+        //imageLoader.displayImage(imageUrl, imageView);
     }
 
 }

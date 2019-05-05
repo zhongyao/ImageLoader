@@ -19,7 +19,11 @@ android {
 }
 
 dependencies {
-    implementation 'com.squareup.picasso:picasso:2.71828'
+//    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'{
+//        exclude(module: 'com.android.support:animated-vector-drawable')
+//        exclude(module: 'com.android.support:exifinterface')
+//    }
+//    implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'com.facebook.fresco:fresco:1.13.0'
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support:recyclerview-v7:27.1.1'

@@ -96,20 +96,20 @@
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3bf9a9b20d3296b7d01a91aee4197c83/res/drawable/notification_tile_bg.xml"
     },
     {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout_activity_home.xml.flat",
         "source": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/layout/activity_home.xml"
     },
     {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl_light.png"
+        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
     },
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
+        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl_light.png"
     },
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/color_abc_tint_switch_track.xml.flat",
@@ -156,28 +156,24 @@
         "source": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/drawable-xhdpi/landscape.jpeg"
     },
     {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_custom.xml.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/dea3a8c1d9b0d9fa6d5d705a34ed3325/res/layout/notification_template_big_media_custom.xml"
-    },
-    {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout_abc_screen_content_include.xml.flat",
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -204,12 +200,12 @@
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout_abc_expanded_menu_layout.xml.flat",
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat",
@@ -232,12 +228,12 @@
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable/abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout_abc_popup_menu_header_item_layout.xml.flat",
@@ -312,10 +308,6 @@
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable/abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout-v11_notification_template_big_media.xml.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/ec6cdf763e294a4f263429940c6a868c/res/layout-v11/notification_template_big_media.xml"
-    },
-    {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png"
     },
@@ -352,16 +344,12 @@
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout_notification_template_media.xml.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/dea3a8c1d9b0d9fa6d5d705a34ed3325/res/layout/notification_template_media.xml"
+        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/color_abc_tint_spinner.xml.flat",
+        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/color/abc_tint_spinner.xml"
     },
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/color_abc_btn_colored_borderless_text_material.xml.flat",
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/color/abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/color_abc_tint_spinner.xml.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/color/abc_tint_spinner.xml"
     },
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout_abc_screen_simple.xml.flat",
@@ -374,10 +362,6 @@
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3bf9a9b20d3296b7d01a91aee4197c83/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
-    },
-    {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout_notification_media_action.xml.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/dea3a8c1d9b0d9fa6d5d705a34ed3325/res/layout/notification_media_action.xml"
     },
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -552,12 +536,12 @@
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/layout/activity_main.xml"
-    },
-    {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -570,10 +554,6 @@
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout-v11_notification_template_big_media_custom.xml.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/ec6cdf763e294a4f263429940c6a868c/res/layout-v11/notification_template_big_media_custom.xml"
     },
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
@@ -644,10 +624,6 @@
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow_custom.xml.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/dea3a8c1d9b0d9fa6d5d705a34ed3325/res/layout/notification_template_big_media_narrow_custom.xml"
-    },
-    {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_light.png"
     },
@@ -676,12 +652,12 @@
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/color/abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3bf9a9b20d3296b7d01a91aee4197c83/res/layout-v21/notification_action_tombstone.xml"
-    },
-    {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
+        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3bf9a9b20d3296b7d01a91aee4197c83/res/layout-v21/notification_action_tombstone.xml"
     },
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -756,10 +732,6 @@
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/layout/abc_screen_toolbar.xml"
     },
     {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout-v11_notification_media_action.xml.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/ec6cdf763e294a4f263429940c6a868c/res/layout-v11/notification_media_action.xml"
-    },
-    {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png"
     },
@@ -778,10 +750,6 @@
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3bf9a9b20d3296b7d01a91aee4197c83/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
-    },
-    {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout_tooltip.xml.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/bd95a18c6183f82677ee99f9b84402fd/res/layout/tooltip.xml"
     },
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -856,10 +824,6 @@
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_dark.png"
     },
     {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow.xml.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/dea3a8c1d9b0d9fa6d5d705a34ed3325/res/layout/notification_template_big_media_narrow.xml"
-    },
-    {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
@@ -884,24 +848,12 @@
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/anim/abc_slide_in_bottom.xml"
     },
     {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout-v11_notification_template_big_media_narrow_custom.xml.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/ec6cdf763e294a4f263429940c6a868c/res/layout-v11/notification_template_big_media_narrow_custom.xml"
-    },
-    {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout_notification_template_lines_media.xml.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/dea3a8c1d9b0d9fa6d5d705a34ed3325/res/layout/notification_template_lines_media.xml"
-    },
-    {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/color_abc_tint_seek_thumb.xml.flat",
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/color/abc_tint_seek_thumb.xml"
     },
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable_abc_ratingbar_indicator_material.xml.flat",
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable/abc_ratingbar_indicator_material.xml"
-    },
-    {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout_abc_action_bar_view_list_nav_layout.xml.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/bd95a18c6183f82677ee99f9b84402fd/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
@@ -940,12 +892,12 @@
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable_abc_btn_radio_material.xml.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable/abc_btn_radio_material.xml"
-    },
-    {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable_tooltip_frame_dark.xml.flat",
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable/tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable_abc_btn_radio_material.xml.flat",
+        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable/abc_btn_radio_material.xml"
     },
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -984,10 +936,6 @@
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/color-v11_abc_background_cache_hint_selector_material_dark.xml.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/bd95a18c6183f82677ee99f9b84402fd/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout_select_dialog_item_material.xml.flat",
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/layout/select_dialog_item_material.xml"
     },
@@ -1012,16 +960,8 @@
         "source": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/drawable-hdpi/friends_sends_pictures_no.png"
     },
     {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/color-v11_abc_background_cache_hint_selector_material_light.xml.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/bd95a18c6183f82677ee99f9b84402fd/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
-    },
-    {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
         "source": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/drawable-mdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout_notification_template_media_custom.xml.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/dea3a8c1d9b0d9fa6d5d705a34ed3325/res/layout/notification_template_media_custom.xml"
     },
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
@@ -1098,10 +1038,6 @@
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/menu_main.xml.flat",
         "source": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/menu/main.xml"
-    },
-    {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/anim_tooltip_exit.xml.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/bd95a18c6183f82677ee99f9b84402fd/res/anim/tooltip_exit.xml"
     },
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -1204,10 +1140,6 @@
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/color_abc_tint_switch_thumb.xml.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/ec6cdf763e294a4f263429940c6a868c/res/color/abc_tint_switch_thumb.xml"
-    },
-    {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3bf9a9b20d3296b7d01a91aee4197c83/res/drawable/notification_bg.xml"
     },
@@ -1254,10 +1186,6 @@
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_track_material.xml.flat",
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable/abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout_notification_template_big_media.xml.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/dea3a8c1d9b0d9fa6d5d705a34ed3325/res/layout/notification_template_big_media.xml"
     },
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
@@ -1348,10 +1276,6 @@
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/color-v23_abc_tint_switch_thumb.xml.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/ec6cdf763e294a4f263429940c6a868c/res/color-v23/abc_tint_switch_thumb.xml"
-    },
-    {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png"
     },
@@ -1384,10 +1308,6 @@
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/layout-v26/abc_screen_toolbar.xml"
     },
     {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout-v11_notification_media_cancel_action.xml.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/ec6cdf763e294a4f263429940c6a868c/res/layout-v11/notification_media_cancel_action.xml"
-    },
-    {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
@@ -1402,10 +1322,6 @@
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable_abc_spinner_textfield_background_material.xml.flat",
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable/abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout_notification_media_cancel_action.xml.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/dea3a8c1d9b0d9fa6d5d705a34ed3325/res/layout/notification_media_cancel_action.xml"
     },
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
@@ -1572,10 +1488,6 @@
         "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/465e3124f54efeb09ba94d58b0197c67/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout-v11_notification_template_big_media_narrow.xml.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/ec6cdf763e294a4f263429940c6a868c/res/layout-v11/notification_template_big_media_narrow.xml"
-    },
-    {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout_view_item.xml.flat",
         "source": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/layout/view_item.xml"
     },
@@ -1590,10 +1502,6 @@
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/layout_activity_image.xml.flat",
         "source": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/src/main/res/layout/activity_image.xml"
-    },
-    {
-        "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/anim_tooltip_enter.xml.flat",
-        "source": "/Users/youku/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/bd95a18c6183f82677ee99f9b84402fd/res/anim/tooltip_enter.xml"
     },
     {
         "merged": "/workspace/git_resources_20170410/AndroidDemo/ImageLoader/app/build/intermediates/res/merged/debug/color-v21_abc_btn_colored_borderless_text_material.xml.flat",
